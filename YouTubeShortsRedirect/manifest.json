@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Shorts Redirector",
+  "version": "1.0",
+  "description": "Redirects YouTube Shorts links to the standard watch URL format.",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
