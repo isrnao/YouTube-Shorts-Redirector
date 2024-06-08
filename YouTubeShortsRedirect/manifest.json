@@ -1,10 +1,9 @@
 {
   "manifest_version": 3,
   "name": "YouTube Shorts Redirector",
-  "version": "1.1",
+  "version": "1.2",
   "description": "Redirects YouTube Shorts links to the standard watch URL format.",
   "permissions": [
-    "activeTab"
   ],
   "content_scripts": [
     {
